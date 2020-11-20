@@ -8,6 +8,7 @@ int main (void) {
     printHugeUnsignedInt (hugeNumber);
     hugeNumber = createHugeUnsignedIntFromString("0000000123456789012345678901234567890");    
     printHugeUnsignedInt (hugeNumber);
+    printf("%d",hugeNumber);
     return EXIT_SUCCESS;
 }
 
